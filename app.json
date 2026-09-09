@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "BeginnerWorkoutApp",
+    "slug": "BeginnerWorkoutApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "web": {
+      "output": "single"
+    },
+    "plugins": [
+      "expo-splash-screen",
+      "expo-image",
+      "expo-sqlite"
+    ]
+  }
+}
