@@ -72,7 +72,9 @@ export default function StartWorkout({route, navigation}) {
     }
 
     return (
-        <Button style={styles.button} onPress={() => navigation.navigate("TodayWorkout", {userId: userId, session: todaySession, currentIndex: 0})} title="Start Workout"></Button>
+        <ScrollView style={styles.background}>
+            <Button style={styles.button} onPress={() => navigation.navigate("TodayWorkout", {userId: userId, session: todaySession, currentIndex: 0})} title="Start Workout"></Button>
+        </ScrollView>
     )
 };
 
