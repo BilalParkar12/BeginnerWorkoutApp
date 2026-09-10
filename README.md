@@ -1,6 +1,6 @@
 # Beginner Workout App
 
-A Native mobile application built with React Native designed to support beginners in the gym by creating personalised workout plans, calculating calorie and macronutrient targets, allowing users to log their meals, calculating top sets for each exercise on their workout plan and helping users to progressively overload on their exercises, supporting beginners in the gym to make the progress they want.
+A React Native mobile application designed to support beginners in the gym by creating personalised workout plans, calculating calorie and macronutrient targets, allowing users to log their meals, calculating top sets for each exercise on their workout plan and helping users to progressively overload on their exercises, supporting beginners in the gym to make the progress they want.
 
 ### Tech Stack
 - Frontend - React Native (framework) and JavaScript (validation)
