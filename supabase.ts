@@ -2,8 +2,8 @@ import { createClient } from '@supabase/supabase-js'
 import 'expo-sqlite/localStorage/install'
 import 'react-native-url-polyfill/auto'
 
-const supabaseUrl = import.meta.env.EXPO_PUBLIC_SUPABASE_URL;
-const supabasePublishableKey = import.meta.env.EXPO_PUBLIC_SUPABASE_KEY;
+const supabaseUrl = "https://cblyvhgfjhmxexhsxnfw.supabase.co";
+const supabasePublishableKey = "sb_publishable_WRdDLEPTao0iJaWZEkZX8Q_cHC3hgQn";
 export const supabase = createClient(supabaseUrl, supabasePublishableKey, {
   auth: {
     storage: localStorage,
