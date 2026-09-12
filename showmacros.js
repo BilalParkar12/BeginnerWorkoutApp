@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, Button, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { supabase } from './supabase';
 
 export default function ShowMacros({route}) {
@@ -88,11 +87,7 @@ export default function ShowMacros({route}) {
 
     if (!dataFetched) {
         return (
-            <SafeAreaProvider>
-                <SafeAreaView>
-                    <ActivityIndicator size="large" />
-                </SafeAreaView>
-            </SafeAreaProvider>
+            <ActivityIndicator size="large" />
         );
     }
 
