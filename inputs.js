@@ -11,7 +11,6 @@ import {
     View
 } from 'react-native';
 import { RadioButton } from 'react-native-paper';
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { supabase } from './supabase';
 
 const api_url = "https://pythonbackend-2f9z.onrender.com"
@@ -111,11 +110,7 @@ export default function MainScreen ({route, navigation}) {
 
     if (!dataFound) {
         return (
-            <SafeAreaProvider>
-                <SafeAreaView>
-                    <ActivityIndicator size="large" />
-                </SafeAreaView>
-            </SafeAreaProvider>
+            <ActivityIndicator size="large" />
         );
     }
 
