@@ -42,11 +42,7 @@ export default function StartWorkout({route, navigation}) {
 
     if (!plan) {
         return (
-            <SafeAreaProvider>
-                <SafeAreaView>
-                    <ActivityIndicator size="large" />
-                </SafeAreaView>
-            </SafeAreaProvider>
+            <ActivityIndicator size="large" />
         );
     }
 
